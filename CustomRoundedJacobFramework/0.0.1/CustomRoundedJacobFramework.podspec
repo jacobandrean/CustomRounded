@@ -33,4 +33,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.swift_version = '5.0'
 
+  spec.dependency 'TTGSnackbar', '~> 1.10.3'
+
 end
